@@ -1,7 +1,7 @@
 # Homo sapien Malate dehydrogenase 2
 
-Uniprot ID: P40926
-Variation: Phosphorylation of THR 203
+# Uniprot ID: P40926
+# Variation: Phosphorylation of THR 227
 
 
 
@@ -10,7 +10,7 @@ ASP 203 of Human MDH2 was identified as a post-transitionally modified site usin
 
 
 
-# Comparison of MDH1 models and phospho modified MDH1
+# Comparison of MDH1 models and phosphorolated modified MDH1
 
 1. Alignment of MDH1, MDH1 with phosphoS 177 (orange), and S177D (magenta)
 ![Alignment of MDH1, MDH1 with phosphoS 177, and S177D](images/align.png){: width = "200px"}
