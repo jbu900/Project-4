@@ -6,28 +6,28 @@
 
 
 ## Description 
-ASP 203 of Human MDH2 was identified as the post-transitionally modified site using AlphaFold software to determine the impact of it's structure and function. TPO 203 was my phosphorylated site in MDH2. 
+ASP 203 of Human MDH2 was identified as the post-transitionally modified site using AlphaFold software to determine the impact of it's structure and function. TPO 203 was my phosphorylated site in MDH2. No previous research has been done at this modification site. 
 
 
 
 # Comparison of MDH2 models to mimic variant and PTM
 
-1. Alignment of MDH1, MDH1 with phosphoS 177 (orange), and S177D (magenta)
-![image](https://github.com/user-attachments/assets/85d9bdb9-7449-484e-ba0e-6f85a3b73765)
+1. Alignment of MDH2, unmodified (yellow and green), modified (purple and blue), and variant (gray and tan). 
+![image](https://github.com/user-attachments/assets/5e3a05eb-392c-4fde-a27f-a3c95fa80a60)
 
 
 
-2. Modification site alignment within MDH1
-3. <img width="465" alt="1st ss github" src="https://github.com/user-attachments/assets/6f649664-a814-4697-857b-e6205845cae0">
 
-![alt text](images/site.png)
+2. Modification site alignment within MDH2
+![image](https://github.com/user-attachments/assets/f9c28447-ba13-4c36-b14d-aa372e853571)
 
-The modification site is near to R174 and E178 and could make ionic or hydrogen bonding interactions with both of those side chains when modified. 
+TPO 203, ASP 203, and THR 203 are the modification sites. TPO 203 interacts with LEU 199 and GLN 207. The unmodifed has the same interactions at the modification site. The variant has no interactions.
 
 ## Effect of the sequence variant and PTM on MDH dynamics
 
-The RMSD of the final frame from MD simulations of MDH1 and MDHS177D was 0.76 Å. The unmodified MDH1 is shown in green while the modified form is shown in purple. 
-![alt text](images/md_align.png)
+The RMSD of the final frame from MD simulations of MDH2 was 1.49 Å. The unmodified MDH2 is shown in green and yellow while the modified form is shown in brown and gray. 
+![image](https://github.com/user-attachments/assets/fb47edee-c849-4b27-9fd2-35406f9e7241)
+
 
 
 After simulation, the overall protein structures are similar as well as the area surrounding the modification sites. A solvent sodium ion has moved close and is forming an ionic interaction with the D in position 177. D177 also is making contact with R174. Neither of these interactions are observed in the unmodified enzyme.
