@@ -12,33 +12,37 @@ ASP 203 of Human MDH2 was identified as the post-transitionally modified site us
 
 # Comparison of MDH2 models to mimic variant and PTM
 
-1. Alignment of MDH2, unmodified (yellow and green), modified (purple and blue), and variant (gray and tan). 
+1. Alignment of MDH2, unmodified (yellow and green), modified (purple and blue), and variant (gray and tan).
+   
 ![image](https://github.com/user-attachments/assets/5e3a05eb-392c-4fde-a27f-a3c95fa80a60)
 
 
 
 
-2. Modification site alignment within MDH2
+2.  Modification site alignment within MDH2
+
 ![image](https://github.com/user-attachments/assets/f9c28447-ba13-4c36-b14d-aa372e853571)
 
 TPO 203, ASP 203, and THR 203 are the modification sites. TPO 203 interacts with LEU 199 and GLN 207. The unmodifed has the same interactions at the modification site. The variant has no interactions.
 
 ## Effect of the sequence variant and PTM on MDH dynamics
 
-The RMSD of the final frame from MD simulations of MDH2 was 1.49 Å. The unmodified MDH2 is shown in green and yellow while the modified form is shown in brown and gray. 
+The RMSD of the final frame from MD simulations of MDH2 was 1.49 Å. The unmodified MDH2 is shown in green and yellow while the modified variant is shown in brown and gray. 
 ![image](https://github.com/user-attachments/assets/fb47edee-c849-4b27-9fd2-35406f9e7241)
 
 
 
-After simulation, the overall protein structures are similar as well as the area surrounding the modification sites. A solvent sodium ion has moved close and is forming an ionic interaction with the D in position 177. D177 also is making contact with R174. Neither of these interactions are observed in the unmodified enzyme.
+After simulation, the overall protein structures are similar as well as the area surrounding the modification sites. The phosphorylation allows for two hydrogen bond connections. Whereas the variant does not have any hydrogen bond interactions but instead a cation-π interaction present between HIS 176 and ARG 86 that is not seen in the other two structures. 
 
 
-![alt text](images/md_site.png)
+![image](https://github.com/user-attachments/assets/7201166d-2309-4d06-b6f5-2e287ee66bf8)
+
 
 ### Comparison of the enzyme dynamics
-After simulation, the dynamics as described by the root mean square fluctuation (RMSF) value were compared. In the plot, there are differences between the unmodified (purple) and S177D (green) around amino acids 400 and 500. These sites are loops bordering the active site. The difference around residue 400 is the active site loop which is key for binding the carboxylic acid substrate. The vertical line indicates the end of one subunit and the beginning of the next subunit of the MDH1 dimer.
+After simulation, the dynamics as described by the root mean square fluctuation (RMSF) value were compared. In the plot, there are differences between the mimic variant (dark blue) and the unmodified (orange). There are distinctions at amino sites 90, 400 and 570. These loop sites correspond to the changes made by the modification to the active site. 
 
-![alt text](images/rmsf_compare.png)
+![image](https://github.com/user-attachments/assets/bce2c371-b14e-4d85-96cc-7a19d85457a4)
+
 
 The loops sites are shown below in blue with stick representations. The upper grouping is the active site loop. The yellow ellipse shows the approximate bind sites of the carboxylic acid and NAD+ substrates.
 
@@ -47,21 +51,22 @@ The loops sites are shown below in blue with stick representations. The upper gr
 
 ### Effect of modification on the pKa values
 
-Overall the modification did not affect the pKa values of the active site histidine. There are only minor differences in the spread of the data over the simulation which may be due to equilibration. 
-![alt text](images/pka_over_traj.png)
+The modification did not have a large affect on the PKa values of the active site. There are very small differnces with almost no change. 
+![image](https://github.com/user-attachments/assets/e9d07273-abdb-4a7e-bc2f-01b966140835)
 
 
 ## Comparison of the mimic and the authentic PTM
-The RMSD MDHS177D and phosphoS177 MDH1 was 0.48 Å. The overall structures are similar with no major differences in structure or position.
+The RMSD MDHS177D and phosphoS177 MDH1 was 1.8 Å. The overall structures are very similar with only minor differences in structure or position.
 
-![alt text](images/mod_compare.png)
+![image](https://github.com/user-attachments/assets/11519e04-7d30-440f-956d-1db3ff3ff63c)
+
 
 ## Authors
 
-Christopher E. Berndsen
+Jacob Ullman
 
 ## Deposition Date
-10/21/2024
+12/7/2024
 
 ## License
 
@@ -77,5 +82,4 @@ This work is licensed under a
 [cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
 
 ## References
-
-* Reinders, Jörg, et al. “Profiling Phosphoproteins of Yeast Mitochondria Reveals a Role of Phosphorylation in Assembly of the ATP Synthase.” Molecular & Cellular Proteomics: MCP, vol. 6, no. 11, Nov. 2007, pp. 1896–906. PubMed, https://doi.org/10.1074/mcp.M700098-MCP200.
+Uniprot. https://www.uniprot.org/uniprotkb/P40926/entry#disease_variants. Accessed December 5, 2024.
