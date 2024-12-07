@@ -44,9 +44,11 @@ After simulation, the dynamics as described by the root mean square fluctuation 
 ![image](https://github.com/user-attachments/assets/bce2c371-b14e-4d85-96cc-7a19d85457a4)
 
 
-The loops sites are shown below in blue with stick representations. The upper grouping is the active site loop. The yellow ellipse shows the approximate bind sites of the carboxylic acid and NAD+ substrates.
+The loops sites are shown below in dark green with stick representations. The upper grouping is the active site loop. The yellow ellipse shows the distance between the binding and active site. 
 
-![alt text](images/loop_sites_active.png)
+![image](https://github.com/user-attachments/assets/49c8cc9c-689a-4113-b2ec-4176cbc510a6)
+
+
 
 
 ### Effect of modification on the pKa values
@@ -56,10 +58,14 @@ The modification did not have a large affect on the PKa values of the active sit
 
 
 ## Comparison of the mimic and the authentic PTM
-The RMSD MDHS177D and phosphoS177 MDH1 was 1.8 Å. The overall structures are very similar with only minor differences in structure or position.
+The RMSD MDHS177D and phosphoS177 MDH1 was 1.7 Å. The overall structures are very similar with only minor differences in structure or position.
 
 ![image](https://github.com/user-attachments/assets/11519e04-7d30-440f-956d-1db3ff3ff63c)
 
+## Colab Notebook Links
+
+Copy of mdanalysis_colab_Step1.ipynb
+Copy of mdanalysis_colab_Step2.ipynb
 
 ## Authors
 
