@@ -89,4 +89,11 @@ This work is licensed under a
 [cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
 
 ## References
-Uniprot. https://www.uniprot.org/uniprotkb/P40926/entry#disease_variants. Accessed December 5, 2024.
+1. AlphaFold Filled - Model P40926. Alphafill.eu. Published 2024. Accessed December 6, 2024. https://alphafill.eu/model?id=P40926&identity=70
+
+2. Mahadevi AS, Sastry GN. Cation−π Interaction: Its Role and Relevance in Chemistry, Biology, and Material Science. Chemical Reviews. 2012;113(3):2100-2138. doi:https://doi.org/10.1021/cr300222d. Accessed December 6, 2024.
+
+3. Mol* viewer. https://molstar.org/viewer/.  Accessed December 5, 2024.
+
+4. Uniprot. https://www.uniprot.org/uniprotkb/P40926/entry#disease_variants. Accessed December 5, 2024.
+
