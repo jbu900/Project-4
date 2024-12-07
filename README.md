@@ -64,8 +64,9 @@ The RMSD MDHS177D and phosphoS177 MDH1 was 1.7 Å. The overall structures are ve
 
 ## Colab Notebook Links
 
-Copy of mdanalysis_colab_Step1.ipynb
-Copy of mdanalysis_colab_Step2.ipynb
+Copy of mdanalysis_colab_Step1
+
+Copy of mdanalysis_colab_Step2
 
 ## Authors
 
