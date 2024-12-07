@@ -1,22 +1,25 @@
 # Homo sapien Malate dehydrogenase 2
 
 # Uniprot ID: P40926
-# Variation: Phosphorylation of THR 227
+# Variation: Mimic variant and PTM at site 203 
 
 
 
 ## Description 
-ASP 203 of Human MDH2 was identified as a post-transitionally modified site using AlphaFold software to determine the impact of it's structure and function. 
+ASP 203 of Human MDH2 was identified as the post-transitionally modified site using AlphaFold software to determine the impact of it's structure and function. TPO 203 was my phosphorylated site in MDH2. 
 
 
 
-# Comparison of MDH1 models and phosphorolated modified MDH1
+# Comparison of MDH2 models to mimic variant and PTM
 
 1. Alignment of MDH1, MDH1 with phosphoS 177 (orange), and S177D (magenta)
-![Alignment of MDH1, MDH1 with phosphoS 177, and S177D](images/align.png){: width = "200px"}
+![image](https://github.com/user-attachments/assets/85d9bdb9-7449-484e-ba0e-6f85a3b73765)
+
 
 
 2. Modification site alignment within MDH1
+3. <img width="465" alt="1st ss github" src="https://github.com/user-attachments/assets/6f649664-a814-4697-857b-e6205845cae0">
+
 ![alt text](images/site.png)
 
 The modification site is near to R174 and E178 and could make ionic or hydrogen bonding interactions with both of those side chains when modified. 
